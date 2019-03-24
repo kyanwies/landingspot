@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Find landing spot</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="favicon.png">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	</head>
+	<body>
+		<form id="fixedbox">
+			<legend>Find a landing spot</legend>
+			<input type="text" name="city" id="city" placeholder="Search for a city" />
+			<input type="button" id="search" value="Search" />
+		</form>
+		
+		<div class="information">
+			<div id="suitable">
+				<p>Suitable for landing</p>
+				<img id="logo"></img>
+			</div>
+			<div id="temperature">
+				<p>Temperature</p>
+				<div id="degrees"></div>
+			</div>
+			<div id="wind">
+				<p>Wind force</p>
+				<div id="kmperh"></div>
+			</div>
+		</div>
+	
+		<script src="main.js" type="text/javascript"></script>
+	</body>
+</html>
